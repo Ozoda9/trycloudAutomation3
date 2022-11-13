@@ -23,5 +23,6 @@ public class Page {
 
     @FindBy(xpath = "//p[@class='warning wrongPasswordMsg']")
     public WebElement wrongMessage;
+
 }
 
