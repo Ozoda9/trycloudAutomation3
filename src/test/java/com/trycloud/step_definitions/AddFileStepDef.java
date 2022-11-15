@@ -15,16 +15,16 @@ import org.openqa.selenium.support.ui.Select;
 
 public class AddFileStepDef {
 
-FileModulePage fileModulePage= new FileModulePage();
+    FileModulePage fileModulePage = new FileModulePage();
 //    @Given("user on the dashboard page")
 //    public void user_on_the_dashboard_page() {
-
 
 
 //        fileModulePage.inputUsername.sendKeys(ConfigReader.getProperty("username"));
 //        fileModulePage.inputPassword.sendKeys(ConfigReader.getProperty("password"));
 //        fileModulePage.loginBtn.click();
-//    }
+
+
 
     @When("the user clicks the Files module")
     public void theUserClicksTheFilesModule() {
