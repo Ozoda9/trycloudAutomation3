@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Tc04Page {
 
-    public FileModelPage() {
+    public Tc04Page() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
