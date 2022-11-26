@@ -7,11 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class Tc04Page {
+public class Tc04Page  {
 
     public Tc04Page() {
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
+
 
     @FindBy(xpath ="//label[@for='select_all_files']")
     public WebElement checkBox;

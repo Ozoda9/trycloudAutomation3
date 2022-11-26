@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", //right click on features package, copy path from content root
         glue = "com/trycloud/step_definitions", //right click on stepdef package, copy path from source root
         dryRun = false,
-        tags = "@wip"
+        tags = ""
 )
 
 public class CukesRunner {
